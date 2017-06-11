@@ -7,8 +7,8 @@ neural network requires flow in the opposite direction, updating the
 components in the network to answer the question.
 
 Following
-[[Andrej Kaparthy's "Hacker's Guide to Neural Networks"][http://karpathy.github.io/neuralnets/]]
-in [[(def shef 34)][#ep34]], we got as far as constructing the
+[Andrej Kaparthy's "Hacker's Guide to Neural Networks"](http://karpathy.github.io/neuralnets/)
+in [(def shef 34)](#ep34), we got as far as constructing the
 network, which led to interesting questions about how to deal with the
 training problem in a functional way. Solutions like the JavaScript
 implementation in Andrej's post rely on mutable objects in the network
