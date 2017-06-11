@@ -8,11 +8,12 @@ components in the network to answer the question.
 
 Following
 [Andrej Kaparthy's "Hacker's Guide to Neural Networks"](http://karpathy.github.io/neuralnets/)
-in [(def shef 34)](https://defshef.github.io#ep34), we got as far as constructing the
-network, which led to interesting questions about how to deal with the
-training problem in a functional way. Solutions like the JavaScript
-implementation in Andrej's post rely on mutable objects in the network
-for the training operation.
+in [(def shef 34)](https://defshef.github.io#ep34), we got as far as
+constructing the network, which led to interesting questions about how
+to deal with the training problem in a functional way. Solutions like
+the JavaScript implementation in Andrej's post rely on mutable objects
+in the network for the training operation. Start at section heading
+"Example: Single Neuron" to understand that solution.
 
 This session will focus on the question of how to deal with updating
 networks like this in a functional style. Anyone wanting to look at
